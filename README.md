@@ -2,10 +2,27 @@
 
 [![Conference - IEEE i-COSTE 2025](https://img.shields.io/badge/IEEE-i--COSTE%202025-blue.svg)](https://doi.org/10.1109/i-COSTE68047.2025.11467478)
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2Fi--COSTE68047.2025.11467478-brightgreen.svg)](https://doi.org/10.1109/i-COSTE68047.2025.11467478)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-000000.svg?logo=vercel&logoColor=white)](https://cardiovascular-disease-predictor.vercel.app/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License - MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Official repository for the research paper **"Web-Based Explainable Machine Learning Model for Early-Stage Heart Disease Detection"**, presented at the **2025 IEEE International Conference on Science, Technology, and Engineering (i-COSTE)**.
+
+---
+
+## 🌐 Live Web Application
+Test the deployed model and interact with the explainable AI predictions in real-time:  
+👉 **[Cardiovascular Disease Predictor (Live Web App)](https://cardiovascular-disease-predictor.vercel.app/)**
+
+---
+
+## 📸 Interface Preview
+
+<p align="center">
+  <img src="web_ui_preview.jpg" alt="Cardiovascular Disease Predictor Web Interface" width="850"/>
+</p>
+
+*Figure 1: Interactive web interface for early-stage heart disease risk prediction and transparent feature attribution.*
 
 ---
 
@@ -17,7 +34,7 @@ Cardiovascular diseases (CVDs) remain a leading cause of global mortality. Early
 ## Key Contributions
 * **Large-Scale Data Processing**: Preprocessed and structured 70,000 patient instances across 19 clinical, demographic, lifestyle, and early-symptom features.
 * **Explainable AI Integration**: Embedded model-agnostic local and global explanation techniques (SHAP & LIME) directly into the prediction workflow to eliminate the "black-box" nature of medical AI models.
-* **Interactive Web Platform**: Designed and deployed a lightweight web application allowing real-time parameter input and transparent prediction visualizations for clinical decision support.
+* **Interactive Web Platform**: Designed and deployed a lightweight web application hosted on Vercel, allowing real-time parameter input and transparent prediction visualizations for clinical decision support.
 
 ---
 
@@ -27,7 +44,7 @@ Cardiovascular diseases (CVDs) remain a leading cause of global mortality. Early
 * **Data Processing & Analytics**: `pandas`, `numpy`
 * **Machine Learning & Modeling**: `scikit-learn`
 * **Explainable AI (XAI)**: `shap`, `lime`
-* **Web Framework & Deployment**: `streamlit` (or `flask`)
+* **Web Framework & Deployment**: Flask / Streamlit, Vercel
 * **Visualization**: `matplotlib`, `seaborn`
 
 ---
