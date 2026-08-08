@@ -1,1 +1,18 @@
+# Data Processing & Analytics
+pandas>=1.5.0
+numpy>=1.21.0
 
+# Machine Learning & Modeling
+scikit-learn>=1.0.0
+
+# Explainable AI (XAI)
+shap>=0.41.0
+lime>=0.2.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Web Framework & Server
+Flask>=2.0.0
+gunicorn>=20.1.0
